@@ -6,9 +6,8 @@ Project participation for The Protein Engineering Tournament by The Align Founda
 
 ```
 ├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
+│
+├── data               <- Dataset folder.
 │
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │
