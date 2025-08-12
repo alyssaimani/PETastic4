@@ -1,6 +1,6 @@
 # PETastic4
 
-Project participation for The Protein Engineering Tournament by The Align Foundation
+Project participation for The Protein Engineering Tournament by The Align Foundation.
 
 ## Project Organization
 
