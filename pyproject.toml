@@ -1,0 +1,19 @@
+[project]
+name = "petastic4"
+version = "0.1.1"
+description = "PETastic4 helper package"
+readme = "README.md"
+requires-python = ">=3.10"
+dynamic = ["dependencies"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+dependencies = { file = "requirements.txt" }
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["petastic4*"]
+namespaces = false
